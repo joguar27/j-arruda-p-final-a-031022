@@ -1,0 +1,26 @@
+1- git init
+2. git add .
+3. git commit -m "first commit"
+4. git branch -M main // para cambiar de master a main
+5. git remote add origin https://github.com/joguar27/b-sass-entrega-010922.git // para vincular el trabajo con el repositorio
+6. git push -u origin main // para subir a github los cambios
+
+
+git log --oneline //para ver todos los commits
+git branch flex-index // para crear una rama nueva
+git branch -l //para verificar nombre de la rama nueva
+git checkout flex-index // para pasar de main a rama nueva
+git push --set-upstream origin flex-index // para vincular rama nueva con el proyecto
+git checkout main // para volver a la rama principal
+git merge // para juntar los cambios de las ramas
+git merge flex-index // para mergear tengo que estar en la rama main y en git merge tengo que nombrar la rama a juntar (flex-index)
+git push // para guardar los cambios en github
+git push --set-upstream https://github.com/joguar27/b-sass-entrega-010922.git
+
+
+clear // para limpiar la consola
+settings/pages/branch/main/save // para activar "github-pages active"
+ctrl c // para salir cuando se tilda la consola
+
+github.com a github.dev // para ver codigo en visual estudio online
+
