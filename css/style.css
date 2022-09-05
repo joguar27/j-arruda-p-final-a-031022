@@ -67,10 +67,6 @@
 .titulo-2 {
   font-size: 30px; }
 
-/* .grid-container img {
-    width: 200px;
-    padding: 15px;
-} */
 .main-contacto {
   min-height: 100vh;
   background-color: #c1e3ed;
@@ -123,13 +119,39 @@
 .tarifas p {
   padding-bottom: 20px;
   max-width: 50vh;
+  /* .titulo-2{
+          padding-top: 15px;
+      } */
   margin: 0 auto;
   font-size: 20px;
   font-weight: 600; }
+  .tarifas p .main-tarifas {
+    min-height: 100vh;
+    background-color: #c1e3ed;
+    text-align: center;
+    padding-top: 55px; }
+  .tarifas p .tarifas-promo {
+    padding-top: 45px; }
+  .tarifas p .titulo {
+    font-size: 3rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold; }
+  .tarifas p .tarifas p {
+    padding-bottom: 20px;
+    max-width: 50vh;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600; }
+  .tarifas p .promociones p {
+    padding-bottom: 20px;
+    max-width: 50vh;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600; }
 
 /* .titulo-2{
-    padding-top: 15px;
-} */
+      padding-top: 15px;
+  } */
 .promociones p {
   padding-bottom: 20px;
   max-width: 50vh;
@@ -137,6 +159,50 @@
   font-size: 20px;
   font-weight: 600; }
 
+.footer {
+  background-color: #d090ac; }
+
+.footer ul {
+  display: flex;
+  width: 450px;
+  margin: 0 auto;
+  padding: 30px;
+  justify-content: center; }
+
+.footer li {
+  padding: 5px;
+  list-style: none; }
+
+.footer a {
+  color: white; }
+
+.footer ul a:hover {
+  color: black; }
+
+.footer p {
+  color: white;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  padding-bottom: 20px; }
+
+.fa-whatsapp {
+  font-size: 35px; }
+
+.fa-twitter {
+  font-size: 35px; }
+
+.fa-instagram {
+  font-size: 35px; }
+
+.fa-square-facebook {
+  font-size: 35px; }
+
+/* .grid-container img {
+    width: 200px;
+    padding: 15px;
+} */
 .grid-container {
   max-width: 850px;
   margin: 0 auto;
@@ -205,46 +271,6 @@
 /* .form-contact{
     border: 5px;
 } */
-.footer {
-  background-color: #d090ac; }
-
-.footer ul {
-  display: flex;
-  width: 450px;
-  margin: 0 auto;
-  padding: 30px;
-  justify-content: center; }
-
-.footer li {
-  padding: 5px;
-  list-style: none; }
-
-.footer a {
-  color: white; }
-
-.footer ul a:hover {
-  color: black; }
-
-.footer p {
-  color: white;
-  display: flex;
-  font-size: 20px;
-  font-weight: bold;
-  justify-content: center;
-  padding-bottom: 20px; }
-
-.fa-whatsapp {
-  font-size: 35px; }
-
-.fa-twitter {
-  font-size: 35px; }
-
-.fa-instagram {
-  font-size: 35px; }
-
-.fa-square-facebook {
-  font-size: 35px; }
-
 @media (max-width: 850px) {
   .header {
     flex-direction: column; }
