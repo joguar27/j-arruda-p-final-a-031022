@@ -67,6 +67,58 @@
 .titulo-2 {
   font-size: 30px; }
 
+.row {
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #b9b9b9; }
+
+.color-boton {
+  background-color: #8c60b4;
+  color: white; }
+
+.btn {
+  background-color: #c99bd4;
+  color: black; }
+
+.btn:hover {
+  background-color: #a4649d;
+  color: white; }
+
+.carousel-inner {
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 20px; }
+
+.carousel {
+  width: 50vw;
+  margin: 0 auto; }
+
+.carousel-caption {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.carousel-caption h5 {
+  font-size: 25px;
+  font-weight: bold; }
+
+.carousel-caption p {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 0px; }
+
+.carousel-caption:hover {
+  background-color: rgba(166, 135, 162, 0.596); }
+
+.btn-carousel:hover {
+  background-color: #a4649d;
+  color: white; }
+
 .main-contacto {
   min-height: 100vh;
   background-color: #c1e3ed;
@@ -159,6 +211,11 @@
   font-size: 20px;
   font-weight: 600; }
 
+.table {
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 2rem; }
+
 .footer {
   background-color: #d090ac; }
 
@@ -199,10 +256,6 @@
 .fa-square-facebook {
   font-size: 35px; }
 
-/* .grid-container img {
-    width: 200px;
-    padding: 15px;
-} */
 .grid-container {
   max-width: 850px;
   margin: 0 auto;
@@ -210,67 +263,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr; }
 
-/* cards coches*/
-.row {
-  justify-content: space-around;
-  padding-top: 30px;
-  padding-bottom: 30px; }
-
-.card {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: #b9b9b9; }
-
-.color-boton {
-  background-color: #8c60b4;
-  color: white; }
-
-.btn {
-  background-color: #c99bd4;
-  color: black; }
-
-.btn:hover {
-  background-color: #a4649d; }
-
-/* carousel */
-.carousel-inner {
-  width: 50vw;
-  margin: 0 auto;
-  margin-top: 50px;
-  padding-bottom: 20px; }
-
-.carousel {
-  width: 50vw;
-  margin: 0 auto; }
-
-.carousel-caption {
-  padding-top: 5px;
-  padding-bottom: 5px; }
-
-.carousel-caption h5 {
-  font-size: 25px;
-  font-weight: bold; }
-
-.carousel-caption p {
-  font-size: 15px;
-  font-weight: bold;
-  padding-bottom: 0px; }
-
-.carousel-caption:hover {
-  background-color: rgba(166, 135, 162, 0.596); }
-
-.btn-carousel:hover {
-  background-color: #a4649d;
-  color: white; }
-
-.table {
-  width: 80vw;
-  margin: 0 auto;
-  margin-bottom: 2rem; }
-
-/* .form-contact{
-    border: 5px;
-} */
 @media (max-width: 850px) {
   .header {
     flex-direction: column; }
