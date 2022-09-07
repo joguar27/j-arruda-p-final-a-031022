@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 
+@import './variables/colores';
+
+
 @import './secciones/header';
 @import './secciones/main-index';
 @import './secciones/coches';
