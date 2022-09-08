@@ -1,5 +1,10 @@
 .header {
-  background-color: $doradoopaco;
+  // background-color: $doradoopaco;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(135, 132, 132),
+    rgb(235, 205, 205)
+  );
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,6 +44,7 @@
 .header a {
   color: white;
   text-decoration: none;
+  font-family: $typo-principal;
 }
 
 .header a:hover {

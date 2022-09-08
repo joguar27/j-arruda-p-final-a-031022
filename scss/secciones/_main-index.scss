@@ -1,8 +1,9 @@
 .main-index {
   min-height: 100vh;
-  background-color: #c1e3ed;
+  // background-color: $doradopalido;
   text-align: center;
   padding-top: 55px;
+  background-image: radial-gradient(rgb(235, 205, 205), rgb(96, 94, 94));
 }
 
 .main-index h1 {

@@ -1,13 +1,18 @@
 .footer {
-  background-color: hsl(334, 41%, 69%);
+  // background-color: $doradoopaco;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(235, 205, 205),
+    rgb(135, 132, 132)
+  );
 }
 
 .footer ul {
   display: flex;
   width: 450px;
   margin: 0 auto;
-  padding: 30px;
-  justify-content: center;
+  padding: 20px;
+  justify-content: space-between;
 }
 
 .footer li {

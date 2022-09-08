@@ -1,8 +1,17 @@
 .main-sucursales {
-  background-color: #c1e3ed;
+  // background-color: $doradopalido;
   min-height: 100vh;
   text-align: center;
   padding-top: 55px;
+  background-image: radial-gradient(rgb(235, 205, 205), rgb(96, 94, 94));
+}
+
+.logo-h2 {
+  color: white;
+  font-size: 6px;
+  margin-left: 10px;
+  transform: skew(-20deg);
+  /* transform: skew(35deg); */
 }
 
 .main-sucursales input {
