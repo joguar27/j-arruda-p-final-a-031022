@@ -1,662 +1,316 @@
+/* Mobile Last */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,600;0,900;1,500&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 .header {
-    background-color: hsl(334, 41%, 69%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+  background-image: linear-gradient(to bottom, #878484, #ebcdcd);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header__logo {
+    margin-left: 30px; }
+  .header__ul {
+    list-style: none;
+    display: flex; }
+    .header__ul--active {
+      font-weight: 900; }
 
 .header img {
-    width: 150px;
-    padding: 15px;
-    transform: skew(-20deg);
-}
+  width: 150px;
+  padding: 15px;
+  transform: skew(-20deg); }
 
-.logo-h2{
-    color: white;
-    font-size: 6px;
-    /* transform: skew(35deg); */
-}
-
-.header ul {
-    list-style: none;
-    display: flex;
-}
+.logo-h2 {
+  color: white;
+  font-size: 6px;
+  /* transform: skew(35deg); */ }
 
 .header li {
-    padding: 10px;
-}
+  padding: 10px; }
 
 .header a {
-    color: white;
-    text-decoration: none;
-}
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif; }
 
 .header a:hover {
-    color: #4B2840;
-    font-weight: bold;
-}
+  color: #4b2840;
+  font-weight: bold; }
 
 .main-index {
-    min-height: 100vh;
-    background-color: #c1e3ed;
-    text-align: center;
-    padding-top: 55px;
-}
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 55px;
+  background-image: radial-gradient(#ebcdcd, #605e5e); }
 
 .main-index h1 {
-    padding-bottom: 25px;
-}
+  padding-bottom: 25px; }
 
 .main-index p {
-    padding-bottom: 20px;
-    max-width: 50vh;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-
+  padding-bottom: 20px;
+  max-width: 50vh;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 600; }
 
 .main-coches {
-    min-height: 100vh;
-    background-color: #c1e3ed;
-    text-align: center;
-    padding-top: 55px;
-}
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 55px;
+  background-image: radial-gradient(#ebcdcd, #605e5e); }
 
-.opciones{
-    padding-bottom: 20px;
-    max-width: 50vh;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: 600;
-}
+.logo-h2 {
+  color: white;
+  font-size: 6px;
+  margin-left: 10px;
+  transform: skew(-20deg);
+  /* transform: skew(35deg); */ }
 
-.titulo-2{
-    font-size: 30px;
-}
+.opciones {
+  padding-bottom: 20px;
+  max-width: 50vh;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 600; }
 
-/* .grid-container img {
-    width: 200px;
-    padding: 15px;
-} */
+.titulo-2 {
+  font-size: 30px; }
 
-.main-contacto {
-    min-height: 100vh;
-    background-color: #c1e3ed;
-    text-align: center;
-    padding-top: 55px;
-}
-
-.main-contacto select{
-    background-color: rgb(189, 184, 184);
-}
-
-
-
-.form-contact input{
-    background-color: rgb(189, 184, 184);
-}
-
-.form-contact select option{
-    background-color: rgb(189, 184, 184);
-}
-
-.consulta{
-    background-color: rgb(189, 184, 184);
-}
-
-.main-sucursales {
-    background-color: #c1e3ed;
-    min-height: 100vh;
-    text-align: center;
-    padding-top: 55px;
-}
-
-.main-sucursales input{
-    background-color: rgb(189, 184, 184);
-}
-
-.main-sucursales select{
-    background-color: rgb(189, 184, 184);
-}
-
-.main-sucursales h2 {
-    padding-top: 25px;
-    padding-bottom: 10px;
-    padding-top: 55px;
-}
-
-
-
-.main-tarifas {
-    min-height: 100vh;
-    background-color: #c1e3ed;
-    text-align: center;
-    padding-top: 55px;
-}
-
-.tarifas-promo{
-    padding-top: 45px;
-}
-
-.titulo {
-    font-size: 3rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-.tarifas p{
-    padding-bottom: 20px;
-    max-width: 50vh;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-/* .titulo-2{
-    padding-top: 15px;
-} */
-
-.promociones p{
-    padding-bottom: 20px;
-    max-width: 50vh;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.grid-container {
-    max-width: 850px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
-/* cards coches*/
 .row {
-    justify-content: space-around;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
-.card{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: rgb(185, 185, 185);
-}
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #b9b9b9; }
 
 .color-boton {
-    background-color: rgb(140, 96, 180);
-    color: white;
-}
+  background-color: #8c60b4;
+  color: white; }
 
 .btn {
-    background-color: #c99bd4;
-    color: black;
-}
+  background-color: #c99bd4;
+  color: black; }
 
 .btn:hover {
-    background-color: rgb(164, 100, 157);
-}
+  background-color: #a4649d;
+  color: white; }
 
-/* carousel */
 .carousel-inner {
-    width: 50vw;
-    margin: 0 auto;
-    margin-top: 50px;
-    padding-bottom: 20px;
-}
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 20px; }
 
 .carousel {
-    width: 50vw;
-    margin: 0 auto;
-}
+  width: 50vw;
+  margin: 0 auto; }
 
-.carousel-caption{
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+.carousel-caption {
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
-.carousel-caption h5{
-    font-size: 25px;
-    font-weight: bold;
-}
+.carousel-caption h5 {
+  font-size: 25px;
+  font-weight: bold; }
 
-.carousel-caption p{
-    font-size: 15px;
-    font-weight: bold;
-    padding-bottom: 0px;
-}
+.carousel-caption p {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 0px; }
 
-.carousel-caption:hover{
-    background-color: hsla(308, 15%, 59%, 0.596);
-}
-
+.carousel-caption:hover {
+  background-color: rgba(166, 135, 162, 0.596); }
 
 .btn-carousel:hover {
-    background-color: rgb(164, 100, 157);
-    color: white;
-}
-
-
-
-.table {
-    width: 80vw;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-}
-
-/* .form-contact{
-    border: 5px;
-} */
-
-
-
-.footer {
-    background-color: hsl(334, 41%, 69%);
-}
-
-.footer ul {
-    display: flex;
-    width: 450px;
-    margin: 0 auto;
-    padding: 30px;
-    justify-content: center;
-}
-
-.footer li {
-    padding: 5px;
-    list-style: none;
-}
-
-.footer a {
-    color: white;
-
-}
-
-.footer ul a:hover{
-    color: black;
-}
-
-
-
-.footer p {
-    color: white;
-    display: flex;
-    font-size: 20px;
-    font-weight: bold;
-    justify-content: center;
-    padding-bottom: 20px;
-}
-
-.fa-whatsapp{
-    font-size: 35px;
-}
-
-.fa-twitter{
-    font-size: 35px;
-}
-
-.fa-instagram{
-    font-size: 35px;
-}
-
-.fa-square-facebook{
-    font-size: 35px;
-}
-
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.header {
-    background-color: hsl(334, 41%, 69%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header img {
-    width: 150px;
-    padding: 15px;
-    transform: skew(-20deg);
-}
-
-.logo-h2{
-    color: white;
-    font-size: 6px;
-    /* transform: skew(35deg); */
-}
-
-.header ul {
-    list-style: none;
-    display: flex;
-}
-
-.header li {
-    padding: 10px;
-}
-
-.header a {
-    color: white;
-    text-decoration: none;
-}
-
-.header a:hover {
-    color: #4B2840;
-    font-weight: bold;
-}
-
-.main-index {
-    min-height: 100vh;
-    background-color: #c1e3ed;
-    text-align: center;
-    padding-top: 55px;
-}
-
-.main-index h1 {
-    padding-bottom: 25px;
-}
-
-.main-index p {
-    padding-bottom: 20px;
-    max-width: 50vh;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-
-
-.main-coches {
-    min-height: 100vh;
-    background-color: #c1e3ed;
-    text-align: center;
-    padding-top: 55px;
-}
-
-.opciones{
-    padding-bottom: 20px;
-    max-width: 50vh;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.titulo-2{
-    font-size: 30px;
-}
-
-/* .grid-container img {
-    width: 200px;
-    padding: 15px;
-} */
+  background-color: #a4649d;
+  color: white; }
 
 .main-contacto {
-    min-height: 100vh;
-    background-color: #c1e3ed;
-    text-align: center;
-    padding-top: 55px;
-}
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 55px;
+  background-image: radial-gradient(#ebcdcd, #605e5e); }
 
-.main-contacto select{
-    background-color: rgb(189, 184, 184);
-}
+.logo-h2 {
+  color: white;
+  font-size: 6px;
+  margin-left: 10px;
+  transform: skew(-20deg);
+  /* transform: skew(35deg); */ }
 
+.main-contacto select {
+  background-color: #bdb8b8; }
 
+.form-contact input {
+  background-color: #bdb8b8; }
 
-.form-contact input{
-    background-color: rgb(189, 184, 184);
-}
+.form-contact select option {
+  background-color: #bdb8b8; }
 
-.form-contact select option{
-    background-color: rgb(189, 184, 184);
-}
-
-.consulta{
-    background-color: rgb(189, 184, 184);
-}
+.consulta {
+  background-color: #bdb8b8; }
 
 .main-sucursales {
-    background-color: #c1e3ed;
-    min-height: 100vh;
-    text-align: center;
-    padding-top: 55px;
-}
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 55px;
+  background-image: radial-gradient(#ebcdcd, #605e5e); }
 
-.main-sucursales input{
-    background-color: rgb(189, 184, 184);
-}
+.logo-h2 {
+  color: white;
+  font-size: 6px;
+  margin-left: 10px;
+  transform: skew(-20deg);
+  /* transform: skew(35deg); */ }
 
-.main-sucursales select{
-    background-color: rgb(189, 184, 184);
-}
+.main-sucursales input {
+  background-color: #bdb8b8; }
+
+.main-sucursales select {
+  background-color: #bdb8b8; }
 
 .main-sucursales h2 {
-    padding-top: 25px;
-    padding-bottom: 10px;
-    padding-top: 55px;
-}
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-top: 55px; }
 
-
+.logo-h2 {
+  color: white;
+  font-size: 6px;
+  margin-left: 10px;
+  transform: skew(-20deg);
+  /* transform: skew(35deg); */ }
 
 .main-tarifas {
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 55px;
+  background-image: radial-gradient(#ebcdcd, #605e5e); }
+
+.tarifas-promo {
+  padding-top: 45px; }
+
+.titulo {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; }
+
+.tarifas p {
+  padding-bottom: 20px;
+  max-width: 50vh;
+  /* .titulo-2{
+          padding-top: 15px;
+      } */
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 600; }
+  .tarifas p .main-tarifas {
     min-height: 100vh;
     background-color: #c1e3ed;
     text-align: center;
-    padding-top: 55px;
-}
-
-.tarifas-promo{
-    padding-top: 45px;
-}
-
-.titulo {
+    padding-top: 55px; }
+  .tarifas p .tarifas-promo {
+    padding-top: 45px; }
+  .tarifas p .titulo {
     font-size: 3rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-.tarifas p{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold; }
+  .tarifas p .tarifas p {
     padding-bottom: 20px;
     max-width: 50vh;
     margin: 0 auto;
     font-size: 20px;
-    font-weight: 600;
-}
+    font-weight: 600; }
+  .tarifas p .promociones p {
+    padding-bottom: 20px;
+    max-width: 50vh;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600; }
 
 /* .titulo-2{
-    padding-top: 15px;
-} */
-
-.promociones p{
-    padding-bottom: 20px;
-    max-width: 50vh;
-    margin: 0 auto;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.grid-container {
-    max-width: 850px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
-/* cards coches*/
-.row {
-    justify-content: space-around;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.card{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: rgb(185, 185, 185);
-}
-
-.color-boton {
-    background-color: rgb(140, 96, 180);
-    color: white;
-}
-
-.btn {
-    background-color: #c99bd4;
-    color: black;
-}
-
-.btn:hover {
-    background-color: rgb(164, 100, 157);
-}
-
-/* carousel */
-.carousel-inner {
-    width: 50vw;
-    margin: 0 auto;
-    margin-top: 50px;
-    padding-bottom: 20px;
-}
-
-.carousel {
-    width: 50vw;
-    margin: 0 auto;
-}
-
-.carousel-caption{
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.carousel-caption h5{
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.carousel-caption p{
-    font-size: 15px;
-    font-weight: bold;
-    padding-bottom: 0px;
-}
-
-.carousel-caption:hover{
-    background-color: hsla(308, 15%, 59%, 0.596);
-}
-
-
-.btn-carousel:hover {
-    background-color: rgb(164, 100, 157);
-    color: white;
-}
-
-
+      padding-top: 15px;
+  } */
+.promociones p {
+  padding-bottom: 20px;
+  max-width: 50vh;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 600; }
 
 .table {
-    width: 80vw;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-}
-
-/* .form-contact{
-    border: 5px;
-} */
-
-
+  width: 80vw;
+  margin: 0 auto;
+  margin-bottom: 2rem; }
 
 .footer {
-    background-color: hsl(334, 41%, 69%);
-}
+  background-image: linear-gradient(to bottom, #ebcdcd, #878484); }
 
 .footer ul {
-    display: flex;
-    width: 450px;
-    margin: 0 auto;
-    padding: 30px;
-    justify-content: center;
-}
+  display: flex;
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: space-between; }
 
 .footer li {
-    padding: 5px;
-    list-style: none;
-}
+  padding: 5px;
+  list-style: none; }
 
 .footer a {
-    color: white;
+  color: white; }
 
-}
-
-.footer ul a:hover{
-    color: black;
-}
-
-
+.footer ul a:hover {
+  color: black; }
 
 .footer p {
-    color: white;
-    display: flex;
-    font-size: 20px;
-    font-weight: bold;
-    justify-content: center;
-    padding-bottom: 20px;
-}
+  color: white;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  padding-bottom: 20px; }
 
-.fa-whatsapp{
-    font-size: 35px;
-}
+.fa-whatsapp {
+  font-size: 35px; }
 
-.fa-twitter{
-    font-size: 35px;
-}
+.fa-twitter {
+  font-size: 35px; }
 
-.fa-instagram{
-    font-size: 35px;
-}
+.fa-instagram {
+  font-size: 35px; }
 
-.fa-square-facebook{
-    font-size: 35px;
-}
+.fa-square-facebook {
+  font-size: 35px; }
 
+.grid-container {
+  max-width: 850px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr; }
 
-
-
-/* @media (max-width: 850px) {
-    .header {
-        flex-direction: column;
-    }
-
-    .footer ul {
-        width: 266px;
-    }
-
-    .grid-container {
-        flex-direction: column;
-        grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: repeat(3, 2fr);
-        justify-items: center;
-        align-items: center;
-    }
-}
+@media (max-width: 850px) {
+  .header {
+    flex-direction: column;
+    display: flex; }
+  .footer ul {
+    width: 266px; }
+  .grid-container {
+    flex-direction: column;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(3, 2fr);
+    justify-items: center;
+    align-items: center; } }
 
 @media (max-width: 460px) {
-    .grid-container {
-        /* flex-direction: row; */
-        grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: repeat(3, 2fr);
-
-    }
-} */
+  .grid-container {
+    /* flex-direction: row; */
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(3, 2fr); } }
