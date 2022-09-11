@@ -22,9 +22,19 @@
   background-color: rgb(189, 184, 184);
 }
 
-// .mapa{
-//   max-width: 80vw;
-// }
+.main-sucursales mapa{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mapa{
+  max-width: 80vw;
+}
+
+.main-sucursales h1{
+  padding-bottom: 25px;
+  max-width: 100vw;
+}
 
 .main-sucursales h2 {
   padding-top: 25px;

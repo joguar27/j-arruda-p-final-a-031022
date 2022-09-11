@@ -14,7 +14,8 @@
     margin-left: 30px; }
   .header__ul {
     list-style: none;
-    display: flex; }
+    display: flex;
+    flex-wrap: wrap; }
     .header__ul--active {
       font-weight: 900; }
 
@@ -209,6 +210,17 @@
 
 .main-sucursales select {
   background-color: #bdb8b8; }
+
+.main-sucursales mapa {
+  display: flex;
+  flex-wrap: wrap; }
+
+.mapa {
+  max-width: 80vw; }
+
+.main-sucursales h1 {
+  padding-bottom: 25px;
+  max-width: 100vw; }
 
 .main-sucursales h2 {
   padding-top: 25px;
