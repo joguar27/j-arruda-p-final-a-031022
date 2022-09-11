@@ -49,12 +49,47 @@
 .main-index h1 {
   padding-bottom: 25px; }
 
+.titulo {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; }
+
 .main-index p {
   padding-bottom: 20px;
   max-width: 50vh;
   margin: 0 auto;
   font-size: 20px;
   font-weight: 600; }
+
+.carousel-inner {
+  width: 50vw;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding-bottom: 20px; }
+
+.carousel {
+  width: 50vw;
+  margin: 0 auto; }
+
+.carousel-caption {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.carousel-caption h5 {
+  font-size: 25px;
+  font-weight: bold; }
+
+.carousel-caption p {
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 0px; }
+
+.carousel-caption:hover {
+  background-color: rgba(166, 135, 162, 0.596); }
+
+.btn-carousel:hover {
+  background-color: #a4649d;
+  color: white; }
 
 .main-coches {
   min-height: 100vh;
