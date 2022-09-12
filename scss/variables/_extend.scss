@@ -1,0 +1,14 @@
+// Extend
+%estilo-inicio{
+    background-color: $grisceniza;
+    color: black;
+    font-family: $typo-principal;
+}
+
+// Mixin
+@mixin estilo-texto{
+    font-size: 30px;
+    font-family: $typo-principal;
+    font-weight: 900;
+    font-style: italic;
+}

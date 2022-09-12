@@ -14,6 +14,18 @@
   /* transform: skew(35deg); */
 }
 
+.main-coches h1 {
+  @extend %estilo-inicio;
+}
+
+.main-coches h2 {
+  @extend %estilo-inicio;
+}
+
+.main-coches h2 {
+  @include estilo-texto;
+}
+
 .opciones {
   padding-bottom: 20px;
   max-width: 50vh;

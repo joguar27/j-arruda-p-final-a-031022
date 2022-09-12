@@ -7,13 +7,17 @@
 }
 
 .main-index h1 {
-  padding-bottom: 25px;
+  // padding-bottom: 25px;
 }
 
 .titulo {
   font-size: 3rem;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+}
+
+.main-index h1{
+  @extend %estilo-inicio;
 }
 
 .main-index p {

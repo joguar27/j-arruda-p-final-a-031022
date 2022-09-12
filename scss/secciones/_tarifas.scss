@@ -14,6 +14,18 @@
   background-image: radial-gradient(rgb(235, 205, 205), rgb(96, 94, 94));
 }
 
+.main-tarifas h1 {
+  @extend %estilo-inicio;
+}
+
+.main-tarifas h2 {
+  @extend %estilo-inicio;
+}
+
+.main-tarifas h2 {
+  @include estilo-texto;
+}
+
 .tarifas-promo {
   padding-top: 45px;
 }

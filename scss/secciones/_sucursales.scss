@@ -14,6 +14,16 @@
   /* transform: skew(35deg); */
 }
 
+.main-sucursales h1 {
+  @extend %estilo-inicio;
+}
+
+.main-sucursales h2{
+  @extend %estilo-inicio;
+  @include estilo-texto;
+}
+
+
 .main-sucursales input {
   background-color: rgb(189, 184, 184);
 }
@@ -22,17 +32,17 @@
   background-color: rgb(189, 184, 184);
 }
 
-.main-sucursales mapa{
+.main-sucursales mapa {
   display: flex;
   flex-wrap: wrap;
 }
 
-.mapa{
+.mapa {
   max-width: 80vw;
 }
 
-.main-sucursales h1{
-  padding-bottom: 25px;
+.main-sucursales h1 {
+  // padding-bottom: 25px;
   max-width: 100vw;
 }
 
