@@ -18,7 +18,19 @@
   @extend %estilo-inicio;
 }
 
+.main-coches p {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  max-width: 50vh;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 600;
+}
+
 .main-coches h2 {
+  background-image: radial-gradient(rgb(235, 205, 205), rgb(96, 94, 94));
+  padding-top: 10px;
+  padding-bottom: 10px;
   @extend %estilo-inicio;
 }
 
@@ -34,9 +46,9 @@
   font-weight: 600;
 }
 
-.titulo-2 {
-  font-size: 30px;
-}
+// .titulo-2 {
+//   font-size: 30px;
+// }
 
 .row {
   justify-content: space-around;
