@@ -18,8 +18,11 @@
   .header__logo {
     margin-left: 30px; }
   .header__ul {
+    padding: 25px;
     list-style: none;
-    display: flex; }
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap; }
     .header__ul--active {
       font-weight: 900; }
 
@@ -37,6 +40,7 @@
   padding: 10px; }
 
 .header a {
+  align-items: center;
   color: white;
   text-decoration: none;
   font-family: "Raleway", sans-serif; }
