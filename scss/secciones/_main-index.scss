@@ -6,9 +6,9 @@
   background-image: radial-gradient(rgb(235, 205, 205), rgb(96, 94, 94));
 }
 
-.main-index h1 {
-  // padding-bottom: 25px;
-}
+// .main-index h1 {
+//   padding-bottom: 25px;
+// }
 
 .titulo {
   font-size: 3rem;
@@ -16,7 +16,7 @@
   font-weight: bold;
 }
 
-.main-index h1{
+.main-index h1 {
   @extend %estilo-inicio;
 }
 
@@ -28,8 +28,6 @@
   font-size: 25px;
   font-weight: 600;
 }
-
-
 
 .carousel-inner {
   width: 50vw;
@@ -60,10 +58,10 @@
 }
 
 .carousel-caption:hover {
-  background-color: rgba(166, 135, 162, 0.596);
+  background-color: rgba(127, 119, 126, 0.596);
 }
 
-.btn-carousel:hover {
-  background-color: #a4649d;
-  color: white;
-}
+// .btn-carousel:hover {
+//   background-color: #a4649d;
+//   color: white;
+// }

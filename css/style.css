@@ -92,11 +92,7 @@
   padding-bottom: 0px; }
 
 .carousel-caption:hover {
-  background-color: rgba(166, 135, 162, 0.596); }
-
-.btn-carousel:hover {
-  background-color: #a4649d;
-  color: white; }
+  background-color: rgba(127, 119, 126, 0.596); }
 
 .main-coches {
   min-height: 100vh;
@@ -206,7 +202,9 @@
   background-color: #bdb8b8; }
 
 .form-contact input {
-  background-color: #bdb8b8; }
+  background-color: #bdb8b8;
+  color: black;
+  width: 150px; }
 
 .form-contact select option {
   background-color: #bdb8b8; }
@@ -341,6 +339,10 @@
 
 .fa-square-facebook {
   font-size: 35px; }
+
+.consulta {
+  border-radius: 5%;
+  border: black, solid, 5px; }
 
 .grid-container {
   max-width: 850px;

@@ -24,7 +24,14 @@
 
 .form-contact input {
   background-color: rgb(189, 184, 184);
+  color: black;
+  width: 150px;
+  // transform: scale(1.2);
 }
+
+// .input:focus{
+//   background-color: peru;
+// }
 
 .form-contact select option {
   background-color: rgb(189, 184, 184);
