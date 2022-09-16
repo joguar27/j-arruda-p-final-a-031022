@@ -143,6 +143,9 @@
   margin-bottom: 10px;
   background-color: #b9b9b9; }
 
+.container p {
+  font-size: 20px; }
+
 .color-boton {
   background-color: #8c60b4;
   color: white; }
