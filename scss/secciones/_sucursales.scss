@@ -18,27 +18,32 @@
   @extend %estilo-inicio;
 }
 
-.main-sucursales h2{
+.main-sucursales h2 {
   @extend %estilo-inicio;
   @include estilo-texto;
 }
 
-
 .main-sucursales input {
   background-color: rgb(189, 184, 184);
+  color: black;
+  width: 250px;
+  height: 45px;
+  border-radius: 5%;
+  border: black solid 3px;
 }
 
 .main-sucursales select {
   background-color: rgb(189, 184, 184);
 }
 
-.main-sucursales mapa {
-  display: flex;
-  flex-wrap: wrap;
-}
+// .main-sucursales mapa {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
 
 .mapa {
   max-width: 80vw;
+  padding-bottom: 40px;
 }
 
 .main-sucursales h1 {
@@ -47,8 +52,42 @@
 }
 
 .main-sucursales h2 {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   // padding-top: 55px;
   background-image: radial-gradient(rgb(235, 205, 205), rgb(96, 94, 94));
+}
+
+.form-contact input {
+  // padding-top: 40px;
+  background-color: rgb(189, 184, 184);
+  color: black;
+  width: 250px;
+  height: 45px;
+  border-radius: 5%;
+  border: black solid 3px;
+  // transform: scale(1.2);
+}
+
+.selector {
+  background-color: rgb(189, 184, 184);
+  color: black;
+  width: 150px;
+  height: 45px;
+  border-radius: 5%;
+  border: black solid 3px;
+}
+
+.visto {
+  background-color: rgb(189, 184, 184);
+  color: black;
+  width: 5px;
+  height: 5px;
+  border-radius: 5%;
+  border: black solid 3px;
+}
+
+.tyc {
+  font-size: 20px;
+  font-weight: 700;
 }

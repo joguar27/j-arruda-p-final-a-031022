@@ -60,12 +60,17 @@
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: rgb(185, 185, 185);
+  &:hover{
+    transform: scale(1.1);
+  }
   // transform: scale(1.15);
 }
 
 .container p {
   font-size: 20px;
 }
+
+.container 
 
 .color-boton {
   background-color: rgb(140, 96, 180);
@@ -81,6 +86,12 @@
   background-color: rgb(164, 100, 157);
   color: white;
 }
+
+// .carousel-item.active{
+//   margin: 0 auto;
+//   width: 90vw;
+//   align-content: space-around;
+// }
 
 .carousel-inner {
   width: 50vw;
