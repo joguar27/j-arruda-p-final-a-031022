@@ -348,7 +348,17 @@
   width: 80vw;
   margin: 0 auto;
   margin-bottom: 2rem;
-  border: black solid 5px; }
+  border: black solid 3px; }
+
+.table th {
+  background-color: #dbccc4;
+  border-radius: 20%; }
+
+.table td {
+  background-color: #D4D2D5; }
+
+.table tr {
+  font-size: 20px; }
 
 .footer {
   background-image: linear-gradient(to bottom, #ebcdcd, #878484); }

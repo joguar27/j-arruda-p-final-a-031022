@@ -124,5 +124,19 @@
   width: 80vw;
   margin: 0 auto;
   margin-bottom: 2rem;
-  border: black solid 5px;
+  border: black solid 3px;
+  // border-radius: 10%;
+}
+
+.table th{
+  background-color: $doradopalido;
+  border-radius: 20%;
+}
+
+.table td{
+  background-color: $grisclaro;
+}
+
+.table tr{
+  font-size: 20px;
 }
