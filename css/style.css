@@ -33,6 +33,8 @@
   transform: scale(1.1); }
 
 .header img {
+  border: #D4D2D5 solid 10px;
+  border-radius: 10%;
   width: 150px;
   padding: 15px;
   transform: skew(-20deg); }
