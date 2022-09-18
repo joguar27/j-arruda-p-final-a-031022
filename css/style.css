@@ -347,7 +347,8 @@
 .table {
   width: 80vw;
   margin: 0 auto;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  border: black solid 5px; }
 
 .footer {
   background-image: linear-gradient(to bottom, #ebcdcd, #878484); }
