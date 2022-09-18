@@ -376,7 +376,8 @@
   font-size: 20px;
   font-weight: bold;
   justify-content: center;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  text-align: center; }
 
 .fa-whatsapp {
   font-size: 35px; }
