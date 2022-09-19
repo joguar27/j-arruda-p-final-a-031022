@@ -1,6 +1,5 @@
 .main-coches {
   min-height: 100vh;
-  // background-color: $doradopalido;
   text-align: center;
   padding-top: 55px;
   background-image: radial-gradient(rgb(235, 205, 205), rgb(96, 94, 94));
@@ -11,7 +10,6 @@
   font-size: 6px;
   margin-left: 10px;
   transform: skew(-20deg);
-  /* transform: skew(35deg); */
 }
 
 .main-coches h1 {
@@ -66,31 +64,12 @@
   }
 }
 
-.container p {
-  font-size: 20px;
-}
-
-.container .color-boton {
-  background-color: rgb(140, 96, 180);
-  color: white;
-}
-
-.btn {
-  background-color: #c99bd4;
-  color: black;
-}
-
-.btn:hover {
-  background-color: rgb(164, 100, 157);
-  color: white;
-}
-
-.carousel-control-prev{
+.carousel-control-prev {
   width: 50px;
 }
 
-.carousel-control-next{
-width: 50px;
+.carousel-control-next {
+  width: 50px;
 }
 
 .carousel-inner {

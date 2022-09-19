@@ -1,6 +1,5 @@
 .main-contacto {
   min-height: 100vh;
-  // background-color: $doradopalido;
   text-align: center;
   padding-top: 55px;
   background-image: radial-gradient(rgb(235, 205, 205), rgb(96, 94, 94));
@@ -11,7 +10,6 @@
   font-size: 6px;
   margin-left: 10px;
   transform: skew(-20deg);
-  /* transform: skew(35deg); */
 }
 
 .main-contacto h1 {
@@ -24,31 +22,23 @@
   width: 150px;
 }
 
-.form-contact{
+.form-contact {
   padding-top: 60px;
 }
 
 .form-contact input {
-  background-color: rgb(189, 184, 184);
   color: black;
   width: 250px;
   height: 45px;
   border-radius: 5%;
   border: black solid 3px;
-  // transform: scale(1.2);
 }
-
-//  .input:focus{
-//    background-color: peru;
-// }
-
-// .form-contact select option {
-//   background-color: rgb(189, 184, 184);
-//   border: black solid 3px;
-// }
 
 .consulta {
   background-color: rgb(189, 184, 184);
   border: black solid 3px;
+}
 
+.tyc input {
+  width: 5px;
 }

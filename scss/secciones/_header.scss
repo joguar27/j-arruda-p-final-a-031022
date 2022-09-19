@@ -1,5 +1,4 @@
 .header {
-  // background-color: $doradoopaco;
   background-image: linear-gradient(
     to bottom,
     rgb(135, 132, 132),
@@ -10,14 +9,9 @@
   align-items: center;
   &__logo {
     margin-left: 30px;
-    // :hover{
-    //   color: #4b2840;
-    //   font-weight: bold;
-    // }
   }
   &__ul {
     justify-content: center;
-    // align-content: space-between;
     padding: 25px;
     list-style: none;
     display: flex;
@@ -43,31 +37,13 @@
   transform: skew(-20deg);
 }
 
-// .header__logo{
-//   &:focus{
-//     background-color: aqua;
-//   }
-// }
-
-//  .header img:hover{
-//    color: #4b2840;
-//    font-weight: bold;
-//  }
-
 .logo-h2 {
   color: white;
   font-size: 6px;
-  /* transform: skew(35deg); */
 }
-
-// .header ul {
-//   list-style: none;
-//   display: flex;
-// }
 
 .header li {
   padding: 10px;
-  // margin: 0 auto;
 }
 
 .header a {
@@ -81,5 +57,3 @@
   color: #4b2840;
   font-weight: bold;
 }
-
-

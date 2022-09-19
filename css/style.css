@@ -41,8 +41,7 @@
 
 .logo-h2 {
   color: white;
-  font-size: 6px;
-  /* transform: skew(35deg); */ }
+  font-size: 6px; }
 
 .header li {
   padding: 10px; }
@@ -112,8 +111,7 @@
   color: white;
   font-size: 6px;
   margin-left: 10px;
-  transform: skew(-20deg);
-  /* transform: skew(35deg); */ }
+  transform: skew(-20deg); }
 
 .main-coches p {
   padding-top: 40px;
@@ -156,21 +154,6 @@
   background-color: #b9b9b9; }
   .card:hover {
     transform: scale(1.1); }
-
-.container p {
-  font-size: 20px; }
-
-.container .color-boton {
-  background-color: #8c60b4;
-  color: white; }
-
-.btn {
-  background-color: #c99bd4;
-  color: black; }
-
-.btn:hover {
-  background-color: #a4649d;
-  color: white; }
 
 .carousel-control-prev {
   width: 50px; }
@@ -218,8 +201,7 @@
   color: white;
   font-size: 6px;
   margin-left: 10px;
-  transform: skew(-20deg);
-  /* transform: skew(35deg); */ }
+  transform: skew(-20deg); }
 
 .main-contacto select {
   background-color: #bdb8b8;
@@ -230,7 +212,6 @@
   padding-top: 60px; }
 
 .form-contact input {
-  background-color: #bdb8b8;
   color: black;
   width: 250px;
   height: 45px;
@@ -240,6 +221,9 @@
 .consulta {
   background-color: #bdb8b8;
   border: black solid 3px; }
+
+.tyc input {
+  width: 5px; }
 
 .main-sucursales {
   min-height: 100vh;
@@ -251,8 +235,7 @@
   color: white;
   font-size: 6px;
   margin-left: 10px;
-  transform: skew(-20deg);
-  /* transform: skew(35deg); */ }
+  transform: skew(-20deg); }
 
 .main-sucursales h2 {
   font-size: 30px;
@@ -286,8 +269,8 @@
 .form-contact input {
   background-color: #bdb8b8;
   color: black;
-  width: 250px;
-  height: 45px;
+  width: 300px;
+  height: 30px;
   border-radius: 5%;
   border: black solid 3px; }
 
@@ -299,14 +282,6 @@
   border-radius: 5%;
   border: black solid 3px; }
 
-.visto {
-  background-color: #bdb8b8;
-  color: black;
-  width: 5px;
-  height: 5px;
-  border-radius: 5%;
-  border: black solid 3px; }
-
 .tyc {
   font-size: 20px;
   font-weight: 700; }
@@ -315,8 +290,7 @@
   color: white;
   font-size: 6px;
   margin-left: 10px;
-  transform: skew(-20deg);
-  /* transform: skew(35deg); */ }
+  transform: skew(-20deg); }
 
 .main-tarifas {
   min-height: 100vh;
@@ -348,12 +322,6 @@
   font-size: 25px;
   font-weight: 600; }
 
-/* .titulo-2{
-          padding-top: 15px;
-      } */
-/* .titulo-2{
-      padding-top: 15px;
-  } */
 .table {
   width: 80vw;
   margin: 0 auto;
@@ -411,17 +379,6 @@
 
 .fa-square-facebook {
   font-size: 35px; }
-
-.consulta {
-  border-radius: 5%;
-  border: black, solid, 5px; }
-
-.grid-container {
-  max-width: 850px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr; }
 
 @media (max-width: 850px) {
   .header {

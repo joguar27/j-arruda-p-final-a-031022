@@ -6,48 +6,28 @@
   box-sizing: border-box;
 }
 
-@import './variables/colores';
-@import './variables/typo.scss';
-@import './variables/extend';
+
+@import "./variables/colores";
+@import "./variables/typo.scss";
+@import "./variables/extend";
 
 
 
-@import './secciones/header';
-@import './secciones/main-index';
-@import './secciones/coches';
-@import './secciones/contacto';
-@import './secciones/sucursales';
-@import './secciones/tarifas';
-@import './secciones/footer';
+@import "./secciones/header";
+@import "./secciones/main-index";
+@import "./secciones/coches";
+@import "./secciones/contacto";
+@import "./secciones/sucursales";
+@import "./secciones/tarifas";
+@import "./secciones/footer";
 
-
-
-
-
-.consulta {
-  border-radius: 5%;
-  border: black, solid, 5px;
-}
-
-
-
-// .input:focus{
-//   background-color: peru;
+// .grid-container {
+//   max-width: 850px;
+//   margin: 0 auto;
+//   display: grid;
+//   grid-template-columns: 1fr 1fr 1fr;
+//   grid-template-rows: 1fr 1fr;
 // }
-
-
-
-.grid-container {
-  max-width: 850px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
-
-
-
-
 
 @media (max-width: 850px) {
   .header {
@@ -75,5 +55,3 @@
     grid-template-rows: repeat(3, 2fr);
   }
 }
-
-

@@ -3,7 +3,6 @@
   font-size: 6px;
   margin-left: 10px;
   transform: skew(-20deg);
-  /* transform: skew(35deg); */
 }
 
 .main-tarifas {
@@ -27,17 +26,7 @@
   background-image: radial-gradient(rgb(235, 205, 205), rgb(96, 94, 94));
 }
 
-// .main-tarifas p {
-//   padding-top: 40px;
-//   padding-bottom: 20px;
-//   max-width: 50vh;
-//   margin: 0 auto;
-//   font-size: 25px;
-//   font-weight: 600;
-// }
-
 .tarifas-promo {
-  // padding-top: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -48,25 +37,6 @@
   font-weight: bold;
 }
 
-// .promociones p{
-//     padding-top: 40px;
-//     padding-bottom: 20px;
-//     max-width: 50vh;
-//     margin: 0 auto;
-//     font-size: 25px;
-//     font-weight: 600;
-//   }
-
-// .tarifas p {
-//   padding-bottom: 20px;
-//   max-width: 50vh;
-//   .main-tarifas {
-//     min-height: 100vh;
-//     background-color: #c1e3ed;
-//     text-align: center;
-//     padding-top: 55px;
-//   }
-
 .main-tarifas p {
   padding-top: 40px;
   padding-bottom: 20px;
@@ -76,50 +46,6 @@
   font-weight: 600;
 }
 
-// .tarifas-promo {
-//   padding-top: 45px;
-// }
-
-// .titulo {
-//   font-size: 3rem;
-//   font-family: "Times New Roman", Times, serif;
-//   font-weight: bold;
-// }
-
-// .tarifas p {
-//   padding-top: 40px;
-//   padding-bottom: 20px;
-//   max-width: 50vh;
-//   margin: 0 auto;
-//   font-size: 20px;
-//   font-weight: 600;
-// }
-
-/* .titulo-2{
-          padding-top: 15px;
-      } */
-
-// .promociones p {
-//   padding-top: 40px;
-//   padding-bottom: 20px;
-//   max-width: 50vh;
-//   margin: 0 auto;
-//   font-size: 20px;
-//   font-weight: 600;
-// }
-
-/* .titulo-2{
-      padding-top: 15px;
-  } */
-
-// .promociones p {
-//   padding-bottom: 20px;
-//   max-width: 50vh;
-//   margin: 0 auto;
-//   font-size: 20px;
-//   font-weight: 600;
-// }
-
 .table {
   width: 80vw;
   margin: 0 auto;
@@ -128,15 +54,15 @@
   // border-radius: 10%;
 }
 
-.table th{
+.table th {
   background-color: $doradopalido;
   border-radius: 20%;
 }
 
-.table td{
+.table td {
   background-color: $grisclaro;
 }
 
-.table tr{
+.table tr {
   font-size: 20px;
 }
