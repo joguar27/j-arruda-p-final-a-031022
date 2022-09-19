@@ -56,11 +56,16 @@
   padding-bottom: 30px;
 }
 
+.card-title {
+  font-weight: bold;
+}
+
 .card {
+  border: black solid 2px;
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: rgb(185, 185, 185);
-  &:hover{
+  &:hover {
     transform: scale(1.1);
   }
   // transform: scale(1.15);
@@ -70,9 +75,7 @@
   font-size: 20px;
 }
 
-.container 
-
-.color-boton {
+.container .color-boton {
   background-color: rgb(140, 96, 180);
   color: white;
 }
@@ -92,6 +95,46 @@
 //   width: 90vw;
 //   align-content: space-around;
 // }
+
+// .carousel-item.active img{
+//   width: 20vw;
+//   height: 30vh;
+//   align-content: center;
+// }
+
+// .carousel-slide d-block{
+//   align-content: center;
+// border: 25px;
+// width: 30vw;
+
+// .d-block{
+//   width: 100px;
+//   height: 200px;
+// }
+
+.carousel-item{
+  // margin: 15px;
+  // align-content: center;
+}
+
+.img d-block{
+  // margin-left: 400px;
+  // align-content: center;
+}
+
+.carousel-inner img{
+  // width: 200vw;
+  
+}
+
+.carousel-control-prev{
+  // color: black;
+  width: 50px;
+}
+
+.carousel-control-next{
+width: 50px;
+}
 
 .carousel-inner {
   width: 50vw;
