@@ -46,10 +46,6 @@
   font-weight: 600;
 }
 
-// .titulo-2 {
-//   font-size: 30px;
-// }
-
 .row {
   justify-content: space-around;
   padding-top: 30px;
@@ -68,7 +64,6 @@
   &:hover {
     transform: scale(1.1);
   }
-  // transform: scale(1.15);
 }
 
 .container p {
@@ -90,45 +85,7 @@
   color: white;
 }
 
-// .carousel-item.active{
-//   margin: 0 auto;
-//   width: 90vw;
-//   align-content: space-around;
-// }
-
-// .carousel-item.active img{
-//   width: 20vw;
-//   height: 30vh;
-//   align-content: center;
-// }
-
-// .carousel-slide d-block{
-//   align-content: center;
-// border: 25px;
-// width: 30vw;
-
-// .d-block{
-//   width: 100px;
-//   height: 200px;
-// }
-
-.carousel-item{
-  // margin: 15px;
-  // align-content: center;
-}
-
-.img d-block{
-  // margin-left: 400px;
-  // align-content: center;
-}
-
-.carousel-inner img{
-  // width: 200vw;
-  
-}
-
 .carousel-control-prev{
-  // color: black;
   width: 50px;
 }
 
