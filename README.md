@@ -32,4 +32,4 @@ Fueron utilizadas distintas imágenes en formato .JPG
 Se subió el sitio al servidor joguar.000.webhostapp.com
 
 Tecnologías utilizadas: FIGMA.COM | HTML5 | CSS3 | COOLORS.CO | BOOTSTRAP V5.2 |
-ANIMATE.CSS | GOOGLE.FONTS | PLACE-HOLD.IT | .GIF | KIT.FONTAWESOME |.JPG
+ANIMATE.CSS | GOOGLE.FONTS | PLACE-HOLD.IT | .GIF | KIT.FONTAWESOME | .JPG
