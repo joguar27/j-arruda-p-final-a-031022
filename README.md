@@ -12,7 +12,7 @@ Se desarrolló el sitio web que consta de 5 páginas html, utilizando HTML5.
 
 A dichas páginas se le aplicó estilos personalizados con CSS3.
 
-Se utilizó una paleta de colores COLORS.CO dándole al sitio cierta sobriedad, 
+Se utilizó una paleta de colores COOLORS.CO dándole al sitio cierta sobriedad, 
 para que visualmente refleje la seriedad y espíritu de la empresa, de 
 acuerdo a lo solicitado por el cliente.
 
@@ -31,3 +31,5 @@ Fueron utilizadas distintas imágenes en formato .JPG
 
 Se subió el sitio al servidor joguar.000.webhostapp.com
 
+Tecnologías utilizadas: FIGMA.COM|HTML5|CSS3|COOLORS.CO|BOOTSTRAP V5.2|
+ANIMATE.CSS|GOOGLE.FONTS|PLACE-HOLD.IT|.GIF|KIT.FONTAWESOME|.JPG
