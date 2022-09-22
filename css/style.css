@@ -90,16 +90,21 @@
   padding-bottom: 5px; }
 
 .carousel-caption h5 {
-  font-size: 25px;
-  font-weight: bold; }
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  margin: 0 auto; }
 
 .carousel-caption p {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
-  padding-bottom: 0px; }
+  padding-bottom: 0px;
+  color: black;
+  display: flex;
+  text-align: center; }
 
 .carousel-caption:hover {
-  background-color: rgba(127, 119, 126, 0.596); }
+  background-color: rgba(128, 128, 128, 0.738); }
 
 .main-coches {
   min-height: 100vh;
@@ -174,22 +179,6 @@
 .carousel-caption {
   padding-top: 5px;
   padding-bottom: 5px; }
-
-.carousel-caption h5 {
-  font-size: 25px;
-  font-weight: bold; }
-
-.carousel-caption p {
-  font-size: 15px;
-  font-weight: bold;
-  padding-bottom: 0px; }
-
-.carousel-caption:hover {
-  background-color: rgba(166, 135, 162, 0.596); }
-
-.btn-carousel:hover {
-  background-color: #a4649d;
-  color: white; }
 
 .main-contacto {
   min-height: 100vh;
