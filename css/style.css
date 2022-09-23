@@ -384,6 +384,5 @@
 
 @media (max-width: 460px) {
   .grid-container {
-    /* flex-direction: row; */
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(3, 2fr); } }

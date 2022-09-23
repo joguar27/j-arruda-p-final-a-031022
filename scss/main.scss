@@ -21,13 +21,11 @@
 @import "./secciones/tarifas";
 @import "./secciones/footer";
 
-// .grid-container {
-//   max-width: 850px;
-//   margin: 0 auto;
-//   display: grid;
-//   grid-template-columns: 1fr 1fr 1fr;
-//   grid-template-rows: 1fr 1fr;
-// }
+
+
+
+
+
 
 @media (max-width: 850px) {
   .header {
@@ -50,7 +48,6 @@
 
 @media (max-width: 460px) {
   .grid-container {
-    /* flex-direction: row; */
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(3, 2fr);
   }

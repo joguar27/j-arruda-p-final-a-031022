@@ -24,11 +24,6 @@
   font-weight: 600;
 }
 
-// .carousel-inner d-block {
-//   max-width: 20vw;
-//   height: 10vh;
-// }
-
 .carousel-inner {
   width: 50vw;
   margin: 0 auto;
@@ -42,7 +37,7 @@
   margin: 0 auto;
 }
 
-.carousel-caption{
+.carousel-caption {
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -52,10 +47,6 @@
   font-weight: bold;
   color: black;
   margin: 0 auto;
-  // display: flex;
-  // flex-wrap: wrap;
-  // text-align: center;
-  // background-color: $grisclaro;
 }
 
 .carousel-caption p {
@@ -70,14 +61,6 @@
   // background-color: $grisclaro;
 }
 
-
-
-// .carousel-caption:hover {
-//   background-color: rgba(127, 119, 126, 0.596);
-// }
-
-.carousel-caption:hover{
+.carousel-caption:hover {
   background-color: rgba(128, 128, 128, 0.738);
-  // border-radius: 45%;
-  // flex-wrap: wrap;
 }
