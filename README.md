@@ -1,6 +1,6 @@
 # j-arruda-p-final-a-031022
 
-Proyecto final para el curso de DESARROLLO WEB dictado por CODERHOUSE.
+Proyecto final para el curso de DESARROLLO WEB dictado por CODERHOUSE | Comisión 33030
 
 Se desarrolló un sitio web para una empresa de alquiler de autos, utilizando 
 como nombre de fantasia: JOGUAR | CAR RENTALS
