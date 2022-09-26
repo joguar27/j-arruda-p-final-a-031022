@@ -215,8 +215,14 @@
   width: 5px; }
 
 .bmw-byn {
+  margin: 0 auto;
   padding: 30px;
-  opacity: 30%; }
+  opacity: 30%;
+  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80vw;
+  align-content: center; }
 
 .main-sucursales {
   min-height: 100vh;
