@@ -186,7 +186,6 @@
   padding-top: 55px;
   background-image: radial-gradient(#ebcdcd, #605e5e); }
 
-
 .logo-h2 {
   color: white;
   font-size: 6px;
@@ -214,6 +213,10 @@
 
 .tyc input {
   width: 5px; }
+
+.bmw-byn {
+  padding: 30px;
+  opacity: 30%; }
 
 .main-sucursales {
   min-height: 100vh;
